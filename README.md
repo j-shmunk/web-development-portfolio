@@ -1,2 +1,2 @@
 # web-development-portfolio
-Homework Assignmrnt #1
+Homework Assignment #1
