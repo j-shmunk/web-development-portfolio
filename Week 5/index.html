@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Explorer</title>
+
+<!--CSS Link-->
+<link rel="stylesheet" href="css/styles.css">
+<script src="javascript/script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Movie Explorer</h1>
+        <p>Explore movies using JavaScript</p>
+    </header>
+
+    <main>
+        <section>
+            <label for="search">Search Movies:</label>
+            <input type="text" id="search" placeholder="Enter a movie title...">
+
+            <label for="genre">Filter by Genre:</label>
+            <select id="genre-filter"> 
+                <option value="all">All Genres</option>
+                <option value="Action">Action</option>
+                <option value="Thriller">Thriller</option>
+                <option value="Science Fiction">Science Fiction</option>
+            </select>
+
+            <label for="year-filter">Filter by Year:</label>
+            <select id="year-filter">
+                <option value="all">All Years</option>
+                <option value="1990">Before 2000</option>
+                <option value="2000">2000 and Later</option>
+            </select>
+
+            <button id="reset-button">Reset Filters</button>
+        </section>
+
+        <p id="movie-count"></p>
+        <!--Part 1 Monday-->
+        <section id="movie-container"></section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Movie Explorer. All rights reserved.</p>
+    </footer>
+</body>
+</html>
