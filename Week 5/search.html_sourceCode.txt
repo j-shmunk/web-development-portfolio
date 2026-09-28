@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plant Search</title>
+
+<!--CSS Link-->
+<link rel="stylesheet" href="css/lab5.css">
+<script src="javascript/script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Plant Search</h1>
+        <p>Explore native plants using JavaScript</p>
+    </header>
+
+    <nav id="navbar">
+        <a href="index.html">Home</a>
+        <a href="search.html">Plants</a>
+        <a href="about.html">About</a>
+        <a href="admin.html">Admin</a>
+    </nav>
+
+    <main>
+        <section>
+            <label for="search">Search Plants:</label>
+            <input type="text" id="search" placeholder="Enter a Plant name...">
+
+            <label for="sunlight">Filter by Sunlight:</label>
+            <select id="sunlight-filter"> 
+                <option value="all">All Sunlight Conditions</option>
+                <option value="Full Sun">Full Sun</option>
+                <option value="Partial Shade">Partial Shade</option>  
+                <option value="Shade">Shade</option>
+            </select>
+
+            <label for="bloom-season">Filter by Bloom Season:</label>
+            <select id="bloom-season-filter">
+                <option value="all">All Seasons</option>
+                <option value="Spring">Spring</option>
+                <option value="Summer">Summer</option>
+                <option value="Fall">Fall</option>
+            </select>
+
+            <button id="reset-button">Reset Filters</button>
+        </section>
+
+        <p id="plant-count"></p>
+       <section id="plant-container"></section>
+    </main>
+</body>
+</html>

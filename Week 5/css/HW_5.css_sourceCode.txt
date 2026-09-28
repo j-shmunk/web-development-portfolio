@@ -1,0 +1,50 @@
+body {
+    font-family: Times New 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #523A34;
+}
+
+nav {
+    background-color:#B87D4B;
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    background-color: #523A34;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#plant-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.plant {
+    background-color: #F2DD6E;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.plant h2{
+    color: #523A34;
+}
+
+@media (max-width: 768px) {
+    #plant-container {
+        grid-template-columns: 1fr;
+    }
+}
