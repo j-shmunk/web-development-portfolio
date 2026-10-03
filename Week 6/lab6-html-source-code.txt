@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plant Collection</title>
+    <link rel="stylesheet" href="lab6.css">
+</head>
+<body>
+    
+
+    <!--Header Section-->
+    <header>
+        <h1>My Plant Collection</h1>
+        <p>Explore my perfect collection of plants</p>
+    </header>
+
+    <!--Main Section-->
+    <main>
+        <div class="buttons">
+            <button onclick="showAllPlants()">All Plants</button>
+            <button onclick="sortAlphabetically()">Sort A-Z</button>
+            <button onclick="filterBySunlight()">Filter by Sunlight</button>
+            <button onclick="filterByBloomSeason()">Filter by Bloom Season</button>
+            <button onclick="filterByPlantHeight()">Filter by Plant Height</button>
+        </div>
+
+        <div id="plantList"></div>
+        <div id="stats"></div>
+    </main>
+    <script src="lab6.js"></script>
+</body>
+</html>

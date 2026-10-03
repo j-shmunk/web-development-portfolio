@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Collection</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    
+
+    <!--Header Section-->
+    <header>
+        <h1>My Movie Collection</h1>
+        <p>Explore my perfect collection of movies</p>
+    </header>
+
+    <!--Main Section-->
+    <main>
+        <div class="buttons">
+            <button onclick="showAllMovies()">All Movies</button>
+            <button onclick="sortAlphabetically()">Sort A-Z</button>
+            <button onclick="filterByGenre()">Filter by Genre</button>
+            <button onclick="filterByYear()">Filter by Year</button>
+            <button onclick="filterByRating()">Filter by Rating</button>
+            <button onclick="showMovieStats()">Movie Stats</button>
+        </div>
+
+        <div id="movieList"></div>
+        <div id="stats"></div>
+    </main>
+    <script src="../js/script.js"></script>
+</body>
+</html>
