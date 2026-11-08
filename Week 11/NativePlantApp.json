@@ -1,0 +1,20 @@
+[
+  {
+    "_id": {
+      "$oid": "6af0fb27a64b42a50cbcd3a7"
+    },
+    "name": "White Wood Aster",
+    "scientificName": "Eurybia Divaricata",
+    "description": "A woodland plant with clusters of small white flowers.",
+    "sunlight": "Partial Shade",
+    "soil": "Well-drained",
+    "water": "Low",
+    "height": 24,
+    "bloomSeason": "Fall",
+    "nativeRange": "Eastern United States, including Pennsylvania",
+    "wildlifeBenefits": [
+      "Provides nectar for bees and butterflies"
+    ],
+    "image": null
+  }
+]
