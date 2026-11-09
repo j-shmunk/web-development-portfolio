@@ -1,0 +1,222 @@
+[
+  {
+    "_id": {
+      "$oid": "6af121109ed043672ba63918"
+    },
+    "title": "Attack on Titan",
+    "releaseYear": 2013,
+    "genres": [
+      "Action",
+      "Drama"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6af121109ed043672ba63919"
+    },
+    "title": "Death Note",
+    "releaseYear": 2006,
+    "genres": [
+      "Mystery",
+      "Thriller"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6af121109ed043672ba6391a"
+    },
+    "title": "Fullmetal Alchemist: Brotherhood",
+    "releaseYear": 2009,
+    "genres": [
+      "Action",
+      "Fantasy"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6af121109ed043672ba6391b"
+    },
+    "title": "One-Punch Man",
+    "releaseYear": 2015,
+    "genres": [
+      "Action",
+      "Comedy"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6af121109ed043672ba6391c"
+    },
+    "title": "Demon Slayer: Kimetsu no Yaiba",
+    "releaseYear": 2019,
+    "genres": [
+      "Action",
+      "Fantasy"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6af121109ed043672ba6391d"
+    },
+    "title": "My Hero Academia",
+    "releaseYear": 2016,
+    "genres": [
+      "Action",
+      "Superhero"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6af121109ed043672ba6391e"
+    },
+    "title": "Sword Art Online",
+    "releaseYear": 2012,
+    "genres": [
+      "Action",
+      "Adventure"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6af121109ed043672ba6391f"
+    },
+    "title": "Hunter x Hunter (2011)",
+    "releaseYear": 2011,
+    "genres": [
+      "Action",
+      "Adventure"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6af121109ed043672ba63920"
+    },
+    "title": "Naruto",
+    "releaseYear": 2002,
+    "genres": [
+      "Action",
+      "Adventure"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6af121109ed043672ba63921"
+    },
+    "title": "Jujutsu Kaisen",
+    "releaseYear": 2020,
+    "genres": [
+      "Action",
+      "Supernatural"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6af121109ed043672ba63922"
+    },
+    "title": "Tokyo Ghoul",
+    "releaseYear": 2014,
+    "genres": [
+      "Action",
+      "Horror"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6af121109ed043672ba63923"
+    },
+    "title": "Steins;Gate",
+    "releaseYear": 2011,
+    "genres": [
+      "Sci-Fi",
+      "Thriller"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6af121109ed043672ba63924"
+    },
+    "title": "Naruto: Shippuden",
+    "releaseYear": 2007,
+    "genres": [
+      "Action",
+      "Adventure"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6af121109ed043672ba63925"
+    },
+    "title": "One Piece",
+    "releaseYear": 1999,
+    "genres": [
+      "Action",
+      "Adventure"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6af121109ed043672ba63926"
+    },
+    "title": "No Game No Life",
+    "releaseYear": 2014,
+    "genres": [
+      "Comedy",
+      "Fantasy"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6af121109ed043672ba63927"
+    },
+    "title": "Re:ZERO -Starting Life in Another World-",
+    "releaseYear": 2016,
+    "genres": [
+      "Drama",
+      "Fantasy"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6af121109ed043672ba63928"
+    },
+    "title": "Code Geass: Lelouch of the Rebellion",
+    "releaseYear": 2006,
+    "genres": [
+      "Action",
+      "Sci-Fi"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6af121109ed043672ba63929"
+    },
+    "title": "Your Lie in April",
+    "releaseYear": 2014,
+    "genres": [
+      "Drama",
+      "Romance"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6af121109ed043672ba6392a"
+    },
+    "title": "Toradora!",
+    "releaseYear": 2008,
+    "genres": [
+      "Comedy",
+      "Romance"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6af121109ed043672ba6392b"
+    },
+    "title": "Mob Psycho 100",
+    "releaseYear": 2016,
+    "genres": [
+      "Action",
+      "Supernatural"
+    ]
+  }
+]
