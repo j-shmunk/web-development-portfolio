@@ -1,6 +1,7 @@
 import mongoose from 'mongoose';
 
-const creatureSchema = new mongoose.Schema({
+const creatureSchema = new mongoose.Schema(
+    {
     name: {
         type: String,
         required: true,
@@ -25,7 +26,9 @@ const creatureSchema = new mongoose.Schema({
         type: String,
         trim: true,
         default: 'No description available',
-    }, {
+    },
+    },
+    {
         timestamps: true,
     },
 );
